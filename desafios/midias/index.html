@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias adptáveis</title>
+</head>
+<body>
+    <h1>Exemplos de mídias adaptáveis</h1>
+    <h2>fotos</h2>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/praia350.jpeg" type="image/jpeg">
+        <source media="(max-width: 1000px )" srcset="imagens/praia700.jpeg" type="image/jpeg">
+       <img src="imagens/praia1000.jpeg" alt="imagem de praia">
+    </picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus atque quis ut laboriosam, sequi earum magnam vel officia eius, quasi quod ipsa, enim veritatis voluptatum reprehenderit veniam itaque ducimus.</p>
+    <picture> 
+        <source media="(max-width:700px)" srcset="imagens/floresta350.jpg" type="image/jpg">
+        <source media="(max-width:1000px)" srcset="imagens/floresta700.jpg" type="image/jpg">
+        <img src="imagens/floresta1000.jpg" alt="imagem de floresta">
+    </picture>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur aliquid excepturi a aliquam similique tempora, quisquam soluta nemo sunt incidunt officiis repellat. Corporis itaque blanditiis omnis officia architecto ratione nemo.</p>
+    <h2>reproduzindo audios</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur reiciendis veritatis, a cupiditate ullam aliquam maiores, culpa nemo impedit natus facere. Quibusdam expedita ratione cupiditate ipsum rerum quo non.</p>
+    <audio preload metadata controls autoplay loop >
+        <source src="sounds/In Dreams - Lish Grooves.mp3" type="audio/mpeg">
+        <source src="sounds/In Dreams - Lish Grooves.ogg" type="audio/ogg">
+     <p>Infelizmente seu navegador não suporta a reprodução do audio, vo^ce pode clicar <a href="sounds/In Dreams - Lish Grooves.mp3">aqui</a> para fazer o download.</p>
+    </audio>
+ <h2>reprozindo videos hospedados no servidor proprio</h2>
+ <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem doloremque atque debitis asperiores ipsa ut voluptatibus nihil voluptatum qui aspernatur vero culpa eveniet, rem magni laborum est doloribus, soluta repellendus.
+ </p>
+ <video width="500" poster="imagens/minhathumb.png" controls > 
+    <source src="videos/meuvideo.mp3.mp4" type="video/mp4">
+    <source src="videos/Meuvideo.webm.webm" type="video/webm">
+    <source src="videos/Meuvideo.mkv.mkv" type="video/mkv">
+    <p> seu navegador não está apto a reproduzir esse video, você pode fazer o download clicando <a href="videos/meuvideo.mp3.mp4">aqui</a></p>
+ </video>
+</body>
+</html>

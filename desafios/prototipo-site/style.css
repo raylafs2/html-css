@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-image: radial-gradient(circle,rgb(99, 99, 245), violet, white); background-attachment: fixed;}
+h1{background-color: antiquewhite;
+border-radius:4px ; }
+div>p{display: none;}
+div{font-weight: bolder;}
+div:hover>p{display: block;
+    color: antiquewhite;
+    background-color: rgb(88, 32, 67);
+}
+div:hover{color: lightpink;}
